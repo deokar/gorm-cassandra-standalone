@@ -1,0 +1,24 @@
+grails:
+  cassandra:
+    contact-points: deoks.eastus.cloudapp.azure.com
+    port: 9142
+    keyspace:
+      name: test
+
+cassandra:
+  keyspace: temp
+  cqlPort: 9242
+  port: 9342
+  contactPoints:
+    - deoks.eastus.cloudapp.azure.com
+
+spring:
+  data:
+    cassandra:
+      port: 9042
+      keyspace-name: test
+      contact-points: deoks.eastus.cloudapp.azure.com
+      username: cassandra
+      password: TYkbLmZTdGc8
+      keyspace: test
+      ssl: false
